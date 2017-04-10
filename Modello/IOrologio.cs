@@ -1,6 +1,9 @@
 using System;
 
 namespace Scacchi.Modello {
+    /*
+    * Interfaccia per rappresentare l'orologio
+     */
     public interface IOrologio {
         TimeSpan TempoResiduoBianco {get;}
         TimeSpan TempoResiduoNero {get;}
